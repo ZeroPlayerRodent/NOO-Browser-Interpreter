@@ -17,7 +17,7 @@ let interpreter = createInterpreter({
     output: "output here",
     highlight: function(code, append, style) {
         for(let i=0; i<code.length; i++) {
-            if("Eek".includes(code[i])) style("color: #0055FF;");
+            if("NO".includes(code[i])) style("color: #0055FF;");
             else style();
             append(code[i]);
         }
