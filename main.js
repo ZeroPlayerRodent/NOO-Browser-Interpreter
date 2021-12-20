@@ -4,7 +4,7 @@ let interpreter = createInterpreter({
     titlebar: [
         {p: "by VilgotanL (and ZeroPlayerRodent)"},
         {p: "Updated as of 2021-12-09"},
-        {a: "NOO! by Zero player rodent", href: "https://esolangs.org/wiki/Eek!#Derivatives"},
+        {a: "NOO! by Zero player rodent", href: "https://esolangs.org/wiki/NOO!"},
     ],
     options: [
         {slow: "checkbox", text: "Slow: ", value: true},
@@ -71,11 +71,6 @@ async function run_eek(code) {
             if(instr_code_map.length > 0) {
                 instr_code_map.at(-1).end = i+1;
             }
-        } else if(char === "k") {
-            p++;
-            m.push(0);
-            m[p] = 21;
-            instr_code_map.push({ start: i, end: i+1 });
         }
     }
     p = 0;
