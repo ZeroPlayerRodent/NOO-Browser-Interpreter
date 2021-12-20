@@ -3,7 +3,7 @@ let interpreter = createInterpreter({
     theme: "light",
     titlebar: [
         {p: "by VilgotanL (and ZeroPlayerRodent)"},
-        {p: "Updated as of 2021-12-09"},
+        {p: "Updated as of 2021-12-20"},
         {a: "NOO! by Zero player rodent", href: "https://esolangs.org/wiki/NOO!"},
     ],
     options: [
